@@ -1,0 +1,66 @@
+main{
+
+    .background-servicios{
+        background-image: url(../imagenes/general/fondo-agua.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+
+        .main-servicios{
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(173, 213, 247, 0.8);
+            margin-left: 10%;
+            margin-right: 10%;
+
+            @media only screen and (max-width: 420px){
+                margin-left: 0%;
+                margin-right: 0%;
+            }
+
+            h1{
+                font-size: 80px;
+                font-family: 'Barlow Condensed', sans-serif;
+                font-style: italic;
+                text-align: center;
+                color: white;
+                text-shadow: 2px 2px 2px black;
+
+            }
+
+            h2{
+                text-align: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                font-size: 30px;
+                font-family: 'Readex Pro', sans-serif;
+                text-shadow: 1px 1px 1px white;
+            }
+
+            .servicio-mesada{
+                h3{
+                    font-family: 'Permanent Marker', cursive; 
+                    font-style: italic;
+                    font-size: 40px;
+                    text-align: center;
+                    margin-top: 50px;
+                    color: yellow;
+                    text-shadow: 2px 2px 2px black;
+                }
+
+                div{
+                    div{
+                        h5{
+                            font-size: 50px;
+                            font-family: 'Barlow Condensed', sans-serif;
+                            font-style: italic;
+                            color: white;
+                            text-shadow: 2px 2px 2px black;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
